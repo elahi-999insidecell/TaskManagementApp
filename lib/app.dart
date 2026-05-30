@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:taskmanager/ui/screens/loginpage.dart';
+import 'package:taskmanager/ui/screens/mainnavholder.dart';
+import 'package:taskmanager/ui/screens/sign_up.dart';
 import 'package:taskmanager/ui/screens/splash_screen.dart';
+import 'package:taskmanager/ui/screens/update_profile.dart';
 
 class TaskManagementApp extends StatelessWidget {
   const TaskManagementApp({super.key});
+  static GlobalKey<NavigatorState> navigator = GlobalKey<NavigatorState>();
 
   // This widget is the root of your application.
   @override
@@ -38,8 +43,17 @@ class TaskManagementApp extends StatelessWidget {
           ),
         ),
       ),
-      home: SplashScreen(),
+      // home: SplashScreen(),
+      initialRoute: "/splash",
       debugShowCheckedModeBanner: false,
+      routes: {
+        "/splash": (context) => SplashScreen(),
+        "/login": (_) => LogInPage(),
+        "/signup": (_) => SignUp(),
+        "/navbar": (_) => Mainnavholder(),
+        "/updateprofile": (_) => UpdateProfile(),
+        
+      },
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:taskmanager/ui/screens/pin_verify.dart';
 import 'package:taskmanager/ui/utils/screen_background.dart';
@@ -50,6 +51,11 @@ class Forgetpassemail extends StatelessWidget {
                           fontSize: 16,
                           fontWeight: FontWeight.w700,
                         ),
+
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.pushNamed(context, "/login");
+                          },
                       ),
                     ],
                   ),
