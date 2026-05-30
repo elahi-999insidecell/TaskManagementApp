@@ -1,16 +1,36 @@
-# taskmanager
+# Task Management App
 
-A new Flutter project.
+A Flutter-based task management application that helps users organize, track, and manage daily tasks efficiently.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User Authentication
+- Create New Tasks
+- Update Task Status
+- Track Task Progress
+- Password Recovery
+- Profile Management
+- REST API Integration
+## App Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img src="assets/screenshots/5.homepage.jpg" width="220">
+  <img src="assets/screenshots/6.addnewtask.jpg" width="220">
+  <img src="assets/screenshots/7.newtaskadded.jpg" width="220">
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<p align="center">
+  <img src="assets/screenshots/8.changestatus.jpg" width="220">
+  <img src="assets/screenshots/9.statuschanged.jpg" width="220">
+  <img src="assets/screenshots/10.updateprofile.jpg" width="220">
+</p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="assets/screenshots/2.login.jpg" width="220">
+  <img src="assets/screenshots/3.signUp.jpg" width="220">
+  <img src="assets/screenshots/4.forgetpassword.jpg" width="220">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/1.splash.jpg" width="220">
+</p>
