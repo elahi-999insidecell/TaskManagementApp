@@ -49,7 +49,7 @@ Navigator.pushReplacement(
                   children:[  
                     SvgPicture.asset(AssetPath.logoSVG, height: 200, width:  200,),
                     SizedBox(height:  10,),
-                    Text("NotePad", style: TextStyle(fontSize: 30, color: Colors.green, fontWeight: FontWeight.w400),)
+                    Text("ManageTasks", style: TextStyle(fontSize: 30, color: Colors.green, fontWeight: FontWeight.w400),)
                     ]
                 ),
               ),
