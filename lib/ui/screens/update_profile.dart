@@ -1,6 +1,7 @@
+// ignore_for_file: unused_field, use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:taskmanager/data/models/userModel.dart';
 import 'package:taskmanager/data/services/apicaller.dart';
 import 'package:taskmanager/data/utils/urls.dart';
 import 'package:taskmanager/ui/controller/auth_controller.dart';
